@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@700&family=Inter:wght@200&display=swap");
+
+.container {
+  width: 100%;
+  /* background-color: blueviolet; */
+  color: #202020;
+  display: flex;
+  justify-content: space-around;
+  padding: 1px 17.5rem;
+  margin-top: -1px;
+}
+.container-hero {
+  width: 100%;
+  background-color: #f5f2fd;
+  display: flex;
+  border-radius: 15px;
+}
+.hero {
+  width: 100%;
+  /* background-color: gray; */
+  color: #202020;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 1rem;
+}
+
+.hero-text {
+  width: 100%;
+  max-width: 700px;
+  /* background-color: aqua; */
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-text h1 {
+  font-family: "Epilogue", sans-serif;
+  font-size: 48px;
+  color: #00bdd6;
+  text-align: center;
+}
+.hero-paragraph {
+  color: #202020;
+  /* background-color: pink; */
+  width: 100%;
+  max-width: 370px;
+  margin-left: 145px;
+  margin-top: 10px;
+  line-height: 1.4rem;
+}
+.hero-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+.hero-button {
+  width: 100%;
+  max-width: 150px;
+  padding: 10px;
+  margin-left: 145px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #00bdd6;
+  color: #f0f0f0;
+  font-weight: bold;
+  font-size: 16px;
+}
+.hero-image {
+  width: 100%;
+  /* background-color: yellow; */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1366px) {
+  .container {
+    padding: 1px 7rem;
+  }
+  .hero-text {
+    display: flex;
+
+  }
+  .hero-text h1 {
+    margin-left: 75px;
+    font-size: 36px;
+    text-align: left;
+  }
+  .hero-paragraph {
+    margin-left: 75px;
+    text-align: justify;
+  }
+  
+
+  .hero-button {
+    margin-left: 75px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .hero-image img {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
